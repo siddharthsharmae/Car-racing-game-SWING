@@ -1,0 +1,30 @@
+# Ignore build output directories
+/bin/
+/target/
+
+# Ignore Eclipse-specific files
+.classpath
+.project
+.settings/
+
+# Ignore Maven or Gradle specific files (if applicable)
+.mvn/
+.gradle/
+build/
+
+# Ignore logs, temporary files, and other generated files
+*.log
+*.tmp
+*.swp
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency caches
+*.jar
+*.war
+*.ear
+.idea/
+.vscode/
